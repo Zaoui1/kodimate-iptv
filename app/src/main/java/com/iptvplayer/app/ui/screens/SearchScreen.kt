@@ -151,7 +151,7 @@ fun SearchScreen(
                 if (total == 0) {
                     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("No results for "$query"", color = TextSecondary, fontSize = 15.sp)
+                            Text("No results for \"$query\"", color = TextSecondary, fontSize = 15.sp)
                             Text("Try a different search term", color = TextTertiary, fontSize = 12.sp)
                         }
                     }
